@@ -20,7 +20,7 @@ from torch.utils.tensorboard import SummaryWriter
 
 from models.modeling import VisionTransformer, CONFIGS
 from utils.scheduler import WarmupLinearSchedule, WarmupCosineSchedule
-from utils.data_utils import get_loader
+from utils.data_utils_old import get_loader
 from utils.dist_util import get_world_size
 
 logger = logging.getLogger(__name__)
